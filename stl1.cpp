@@ -15,6 +15,17 @@ for(int i = 0 ;i<4 ;i++){
 // end == element after the last 
 // rbegin() == point towards the element at last
 // rend () == point toward the element before start
-    return 0 ;
+   
 
+for(auto it = arr3.begin() ;it!=arr3.end() ;it++){
+cout << *it ;
+}
+for(auto it : arr3){    // auto keyword detects the datatype 
+    cout << it ;
+}
+string s  = "wfwrg";
+for (auto c : s){
+    cout <<  c << " ";
+}
+return 0 ;
 }
